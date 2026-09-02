@@ -394,8 +394,8 @@ export default function Home() {
                                     <p>{file.body}</p>
                                 </div>
                                 <aside className="file-prompt">
-                                    <Lightbulb size={17} />
-                                    <span>{file.prompt}</span>
+                                    {/* <Lightbulb size={17} />
+                                    <span>{file.prompt}</span> */}
                                 </aside>
                                 <div className="file-index" aria-hidden="true">
                                     {String(index + 1).padStart(2, "0")}
