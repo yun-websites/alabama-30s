@@ -297,8 +297,9 @@ export default function Home() {
                 </div>
                 <p>
                     <b>Read with care.</b> Experiences in 1930s Alabama differed sharply by race, class, family, and whether
-                    people lived in a city or in the countryside. This guide uses evidence to give context — it does not treat
-                    the novel as a history book.
+                    people lived in a city or in the countryside. 
+                    {/* <br /> */}
+                    {/* This guide uses evidence to give context — it does not treat the novel as a history book. */}
                 </p>
                 <a href="#sources">
                     Check the sources <ArrowUpRight size={16} />
