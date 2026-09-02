@@ -157,7 +157,7 @@ const facts = [
     },
     {
         number: "07",
-        fact: "§ 256",
+        fact: "256",
         label: "of the 1901 Alabama Constitution established a segregated school system",
         source: "Encyclopedia of Alabama",
     },
@@ -197,7 +197,7 @@ const sources = [
 ];
 
 export default function Home() {
-    const [activeMoment, setActiveMoment] = useState(1);
+    const [activeMoment, setActiveMoment] = useState(0);
     const [activeFact, setActiveFact] = useState(0);
     const [menuOpen, setMenuOpen] = useState(false);
 
@@ -487,7 +487,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="reading-section" aria-labelledby="reading-heading">
+            {/* <section className="reading-section" aria-labelledby="reading-heading">
                 <div className="reading-side-note">
                     <span>
                         READ
@@ -522,7 +522,7 @@ export default function Home() {
                         </li>
                     </ol>
                 </div>
-            </section>
+            </section> */}
 
             <footer id="sources" className="sources-footer" aria-labelledby="sources-heading">
                 <div className="source-intro">
@@ -531,7 +531,7 @@ export default function Home() {
                         <p className="eyebrow">Research desk</p>
                         <h2 id="sources-heading">Sources &amp; method</h2>
                     </div>
-                    <p>
+                    <p style={{ marginLeft: "5rem" }}>
                         This site synthesises published historical background for a school assignment. It uses original
                         illustrative artwork rather than presenting generated images as archival photographs.
                     </p>
